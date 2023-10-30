@@ -1,0 +1,42 @@
+{
+  "rules": {
+    "require-jsdoc": "off",
+    "prettier/prettier": "error",
+    "typescript/no-inferrable-types": [
+      "error",
+      {
+        "ignoreProperties": false,
+        "ignoreParameters": false
+      }
+    ],
+    "vue/max-attributes-per-line": ["error", {
+      "singleline": 10,
+      "multiline": {
+        "max": 1,
+        "allowFirstLine": false
+      }
+    }]
+  },
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "typescript/no-var-requires": "off"
+      }
+    }
+  ],
+  "parser": "vue-eslint-parser",
+  "parserOptions": {
+    "ecmaVersion": 9,
+    "sourceType": "module",
+    "ecmaFeatures": { "modules": true },
+    "parser": "typescript-eslint-parser"
+  },
+  "plugins": ["prettier", "typescript"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:vue/recommended",
+    "typescript",
+    "prettier"
+  ]
+}
