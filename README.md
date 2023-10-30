@@ -6,7 +6,7 @@ The number of digits, and also the chance to have carry digit & borrowing in the
 
 [Open the app](https://lwchkg.github.io/arith_ws_gen/)
 
-P.S. for Android, Firefox is recommended because it comes with an internal
+P.S. for Android, Firefox is recommended because it comes with an internal PDF viewer.
 
 Note: sadly the project cannot be built now because the code base was unmaintained for years.
 I did not have the time to add features like model answers and page layout (paper size, header, etc.)
